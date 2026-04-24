@@ -97,11 +97,9 @@ const MiPokedex = () =>{
         )
         : true
 
-    const matchRegion = inputRegion
-        ? pokemon.region?.toLowerCase() === inputRegion.toLowerCase()
-        : true
+   
 
-    return matchName && matchType && matchRegion
+    return matchName && matchType 
 
 }).map((pokemon) => (
     <UnPokemon key={pokemon.id} pokemonObj={pokemon} />
