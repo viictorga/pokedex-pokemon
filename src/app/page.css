@@ -1,0 +1,97 @@
+body{
+    background-image: url("/fondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedorPrincipal{
+    padding:  10px 20px 20px 20px;
+    
+}
+.botonAngela{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.botonAngela > button{
+     background-color: white;
+  color: #000000;
+  border: 2px solid #ffcc00;
+  border-radius: 25px;
+    
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+ 
+  flex-shrink: 0;
+}
+.botonAngela > button:hover{
+    transform: scale(1.02);
+    box-shadow: 3px 3px 3px #ffcc00;
+}
+.lupa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    border-radius: 10px;
+    border: 2px solid black;
+
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.lupa:hover{
+    transform: scale(1.02);
+    box-shadow: 3px 3px 3px #ffcc00;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+.divisor{
+    
+   margin: 30px;
+    padding: 15px;
+}
+
+
+.contenedorLogosGeneraciones{
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.cardRegion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.cardRegion:hover{
+    transform: scale(1.02);
+}
+
+.imagenesGeneraciones{
+    width: 190px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+.cardRegion p{
+    margin-top: 1px;
+   
+}

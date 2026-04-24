@@ -1,0 +1,88 @@
+body{
+    background-image: url("/fondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.card h1{
+    text-align: center;
+    font-size: 2.2rem;
+    color: #ffcc00;
+    text-shadow: 2px 2px 0px black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.card label{
+    font-weight: bold;
+    color: #333;
+}
+
+.card p{
+    margin: 6px 0;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.card h3{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #444;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+}
+.card div button{
+    display: flex;
+    justify-content: center;
+    background-color: #ffcc00;;
+    cursor: pointer;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    transition: 0.2s ease;
+   text-align: center;
+    margin: auto;
+    margin-top: 20px;
+   padding: 5px;
+   gap: 4px;
+   border-radius: 8px;
+}
+.card div button > hover{
+    background: #ffcc00;
+    color: black;
+    transform: translateX(5px);
+}
+
+
+.card div p{
+    background: #f4f4f4;
+    transition: 0.2s ease;
+    cursor: default;
+}
+
+.card div p:hover{
+    background: #ffcc00;
+    color: black;
+    transform: translateX(5px);
+}
+
+p{
+    text-align: center;
+    font-size: 1.1rem;
+}
