@@ -24,7 +24,7 @@ const App = () =>{
   return (
     <div className="contenedorPrincipal">
       <h1>Pokemon</h1>
-      <div className="botonAngela">
+      <div className="botonMiriam">
         {/* jeje para la mejor del mundo :))) */}
         <button onClick={(()=>{
           router.push("/pokemon/piplup")
