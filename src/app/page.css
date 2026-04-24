@@ -10,12 +10,12 @@ body{
     padding:  10px 20px 20px 20px;
     
 }
-.botonAngela{
+.botonMiriam{
     display:flex;
     justify-content: flex-end;
     
 }
-.botonAngela > button{
+.botonMiriam > button{
      background-color: white;
   color: #000000;
   border: 2px solid #ffcc00;
@@ -27,7 +27,7 @@ body{
  
   flex-shrink: 0;
 }
-.botonAngela > button:hover{
+.botonMiriam > button:hover{
     transform: scale(1.02);
     box-shadow: 3px 3px 3px #ffcc00;
 }
